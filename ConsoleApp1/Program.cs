@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Program()
+{
+    public static void Main()
+    {
+        Student student1 = new Student("Andrew");
+        Console.WriteLine(student1.StudentHello());
+    }
+}
